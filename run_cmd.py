@@ -48,5 +48,6 @@ if __name__ == '__main__':
         print(f'{len(X)}/{args.n_total_sample} complete')
 
     # plot
-    plot_performance_space(Y)
     plot_performance_metric(Y, problem.obj_type)
+    plot_performance_space(Y)
+    
